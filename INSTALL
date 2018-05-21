@@ -1,0 +1,11 @@
+# Installing a Device Manager #
+
+Only for LinuxOS
+1) Download sources of DM
+    Run in shell:
+        "git clone https://github.com/errorrmaxim/device-manager.git"
+        "cd device-manager"
+        "mkdir build && cd build"
+        "cmake .."
+        "make"
+
