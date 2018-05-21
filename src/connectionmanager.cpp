@@ -1,7 +1,5 @@
 #include "connectionmanager.h"
 
-#include <iostream>
-
 ConnectionManager::ConnectionManager(const std::string &host, int port) {
     mosqpp::lib_init();
     async_connect(host.c_str(), port);
