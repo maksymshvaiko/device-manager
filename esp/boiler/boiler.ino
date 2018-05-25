@@ -1,5 +1,3 @@
-
-
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
@@ -11,7 +9,7 @@ const char* mqtt_server = "127.0.0.1";//ip of message broker
 const char* message_on = "ON";
 const char* message_off = "OFF";
 
-typedef led  16
+#define led  16
 
 WiFiClient WiFiclient;
 PubSubClient client(WiFiclient);
